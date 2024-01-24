@@ -1,5 +1,13 @@
-$color: red;
+//resets
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  background: $color;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
