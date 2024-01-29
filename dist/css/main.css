@@ -1,8 +1,5 @@
 .mobile-size-container {
-  max-width: 375px; }
-
-.desktop-size-container {
-  max-width: 1440px; }
+  max-width: 630px; }
 
 .text-center {
   text-align: center; }
@@ -33,3 +30,38 @@ body {
   border-bottom-right-radius: 2rem;
   padding: 1.5rem;
   margin-bottom: 2rem; }
+
+.result-title {
+  color: #c8c7ff;
+  padding: 1rem; }
+
+.result-circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 9rem;
+  width: 9rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: linear-gradient(#7857ff, #2e2be9);
+  color: white; }
+
+.top {
+  font-weight: 700;
+  font-size: 4rem; }
+
+.bottom {
+  margin-top: -1rem;
+  color: #c8c7ff; }
+
+.text-great {
+  font-size: 1.4rem;
+  color: white; }
+
+.result-score {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: #c8c7ff;
+  font-size: 1rem; }

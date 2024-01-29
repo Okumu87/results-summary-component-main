@@ -1,5 +1,6 @@
 @import "config";
 @import "utilities";
+@import "media";
 
 //resets
 
@@ -31,4 +32,49 @@ body {
   border-bottom-right-radius: 2rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.result-title {
+  color: $color-light-lavender;
+  padding: 1rem;
+}
+
+//Circle
+.result-circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 9rem;
+  width: 9rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    $background-light-slate-blue,
+    $background-light-royal-blue
+  );
+  color: $color-white;
+}
+
+.top {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.bottom {
+  margin-top: -1rem;
+  color: $color-light-lavender;
+}
+
+.text-great {
+  font-size: 1.4rem;
+  color: $color-white;
+}
+
+.result-score {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: $color-light-lavender;
+  font-size: 1rem;
 }
