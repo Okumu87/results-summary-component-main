@@ -31,12 +31,11 @@ body {
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   padding: 1.5rem;
-  margin-bottom: 2rem;
 }
 
 .result-title {
   color: $color-light-lavender;
-  padding: 1rem;
+  padding: $pd-1;
 }
 
 //Circle
@@ -77,4 +76,98 @@ body {
   padding-bottom: 1rem;
   color: $color-light-lavender;
   font-size: 1rem;
+}
+
+// Summary section
+
+.summary-container {
+  padding: $pd-1;
+
+  & p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Reaction
+
+.reaction-summary,
+.memory-summary,
+.verbal-summary,
+.visual-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $pd-small;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.reaction-title,
+.memory-title,
+.verbal-title,
+.visual-title {
+  font-weight: 100;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-count {
+  color: $color-dark-gray-blue;
+  font-size: 1rem;
+
+  & span {
+    color: $color-dark-gray-blue-span;
+  }
+}
+
+//Reaction
+
+.reaction-summary {
+  background: $summary-light-red-background;
+  .reaction-title {
+    color: $summary-light-red;
+  }
+}
+
+//Memory
+
+.memory-summary {
+  background: $summary-orangey-yellow-background;
+
+  .memory-title {
+    color: $summary-orangey-yellow;
+  }
+}
+
+// Verbal
+.verbal-summary {
+  background: $summary-green-teal-background;
+
+  .verbal-title {
+    color: $summary-green-teal;
+  }
+}
+//Visual
+.visual-summary {
+  background: $summary-cobalt-blue-background;
+
+  .visual-title {
+    color: $summary-cobalt-blue;
+  }
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  color: $color-white;
+  background: $color-dark-gray-blue;
+  padding: $pd-small;
+  border-radius: 3rem;
 }
